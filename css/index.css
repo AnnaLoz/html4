@@ -1,13 +1,15 @@
 h1 {
-    font-size:45px;
+    font-size:65px;
     color:  #1C1C1C;
     text-align: center;
-    }
-a {
-   font-size:35px;
-    color:  #363636;
-    text-align: left;
-      }
+       }
+#abs {
+    position:absolute;
+    right: 200px;
+    top:80px;
+    font-family: 'Lobster', cursive;
+}
+
 h2 {
     font-size:30px;
     color: #4F4F4F;
@@ -25,10 +27,120 @@ h3 {
     }
 #merezhi {
      text-align: right;
-}
-.foto
+    }
+#box
    {
-display: inline-block;
+    display: -webkit-flex;
+    display: inline-flex;
+   }
+.flexi {
+  -webkit-flex: 1;
+          flex: 1;
+   
+       }
+.imag
+    {
+    width: 80%;
+     border: 2px solid #828282;
+        }         
+.imags
+    {
+    width: 70%;
+     border: 2px solid #828282;
+        }
+ .im 
+    {
+        justify-content: center;
+        padding: 30px;
+    }
+.art 
+{
+    justify-content: center; 
+     padding: 30px;
 }
-
-    
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 438px;
+ height: 45px;
+  list-style-type: none;
+  border: 3px solid #696969;
+  background-color: #9C9C9C;
+}
+.navbar a {
+     display: inline-block;
+      text-decoration: none;
+      color: #363636;
+          }
+.navbar li {
+   float: left; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 25px;
+   border: 3px solid #828282;
+padding-top: 5px;
+padding-right: 15px;
+padding-bottom: 5px;
+padding-left: 15px;
+}
+.navbar1 {
+  margin: 0;
+  padding: 0;
+  width: 297px;
+ height: 45px;
+  list-style-type: none;
+  border: 3px solid #696969;
+  background-color: #9C9C9C;
+}
+ .navbar1 a {
+     display: inline-block;
+      text-decoration: none;
+      color: #363636;
+          }
+.navbar1 li {
+   float: left; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 25px;
+   border: 3px solid #828282;
+padding-top: 5px;
+padding-right: 15px;
+padding-bottom: 5px;
+padding-left: 15px;
+}
+.navbar2 {
+  margin: 0;
+  padding: 0;
+  width: 283px;
+ height: 45px;
+  list-style-type: none;
+  border: 3px solid #696969;
+  background-color: #9C9C9C;
+}
+ .navbar2 a {
+     display: inline-block;
+      text-decoration: none;
+      color: #363636;
+          }
+.navbar2 li {
+   float: left; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 25px;
+   border: 3px solid #828282;
+padding-top: 5px;
+padding-right: 15px;
+padding-bottom: 5px;
+padding-left: 15px;
+}
+#fon {
+  background-color:	#CFCFCF;
+}
+.small{
+    border: 1px solid #828282;
+}
+#map
+    {
+    width: 200px;
+     border: 2px solid #828282;
+        }
+.ser{
+    text-align: center;
+}

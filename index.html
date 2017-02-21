@@ -2,49 +2,62 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Sait</title>
+    <title>Site</title>
     <link rel="stylesheet" href="css/index.css" >
-</head>
-<body>
-    <div>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+<body id="fon">
+    <div >
     <img src="emblema.jpg" alt="emblema">
     </div>
     <div>
      <header>
-        <h1 ><b>Моя географія.</b></h1>
-     </header>
+             <h1 id="abs"><b>Моя географія.</b></h1>
+             </header>
      </div>
-     <nav>
-      <a href="index.html"> Головна</a>
-      <a href="galereia.html"> Галерея</a>
-      <a href="kontakty.html"> Контакти</a>
+     <nav class="fix">
+      <ul class="navbar">
+     <li> <a href="index.html"> Головна</a></li>
+      <li><a href="galereia.html"> Галерея</a></li>
+      <li><a href="kontakty.html"> Контакти</a></li>
+      </ul>
       </nav>
-      <div>
+      <div id="box">
+       <div class="flexi">
       <header>
         <h2 ><b>Місто, де я народилась.</b></h2>
      </header> 
         <article>
              <h3>Одеса.</h3>
+             <div class="art">
              <p>
-             Одеса багата на природну красу та архітектурні пам'ятки
+               Одеса багата на природну красу та архітектурні пам'ятки
             «Я вам не скажу за всю Одессу - вся Одеса очень велика ...». А ще 
             вона колоритна, легендарна, багата на природну красу та пам'ятки 
             архітектури. Тому, будучи в Одесі, окрім пляжів, є ще багато місць,
             вартих уваги. Чорноморський Вавилон вражає шармом та емоціями!
+            Історичний центр Одеси з 2009 року перебуває в попередньому спискові
+            об'єктів Світової спадщини ЮНЕСКО.
             </p>
+            </div>
        </article>
        <footer>
-           <img src="odesa.jpg" alt="odesa">
-        </footer> 
+        <div class="im">
+                  <img class="imag" src="odesa.jpg" alt="odesa"  aling="center"  
+           hspace="20" vspace="20">
+           </div>
+                </footer> 
         </div>
-        <div>
+        <div class="flexi" >
         <header>
         <h2><b>Місто дитинства.</b></h2>
        </header> 
         <article>
              <h3>Коломия.</h3>
+             <div class="art">
              <p>
-             Коломия - чудове місто в Івано-Франківській області з дуже виразним
+               Коломия - чудове місто в Івано-Франківській області з дуже виразним
              австро-угорським характером забудови. Варто поблукати тісними 
              вуличками середмістя кілька годин, щоб відчути себе трохи
              по-іншому. Сецесія, модерн і історизм - саме той час, коли місто 
@@ -52,19 +65,23 @@
              ХХ сторіччя в деталі та красу буття як таку все ще голосним акордом
              звучить в забудові площі Ринок та навколишніх кварталів.
              </p>
+             </div>
        </article>
        <footer>
-           <img src="kolomyia.jpg" alt="kolomyia">
-        </footer>
+             <div class="im">
+                  <img class="imag" src="kolomyia.jpg" alt="kolomyia"  
+           hspace="20" vspace="20">
+                  </footer>
         </div>
-        <div>
+        <div class="flexi">
        <header>
         <h2 ><b>Моє місто.</b></h2>
      </header> 
         <article>
              <h3>Львів.</h3>
+             <div class="art">
              <p>
-             Львів - місто, яке зачаровує з першого погляду. Кожна вуличка 
+               Львів - місто, яке зачаровує з першого погляду. Кожна вуличка 
              Львова наповнена стародавнім шармом, ароматами кави, духом
              романтики і архітектурною довершеністю. Кожен його елемент приховує
              цікаві історії та інтригуючі загадкові легенди. Львів - це 
@@ -73,23 +90,27 @@
              Це місто, яке "охороняють" кам'яні благородні леви та яке змусить 
              Вас повірити в мрію. Загадковості Львова не має меж.
              </p>
+             </div>
        </article>
        <footer>
-           <img src="lviv.jpg" alt="lviv">
-        </footer>
+        <div clas="im">
+                   <img class="imags" src="lviv.jpg" alt="lviv"  hspace="20" vspace="40">
+           </div>
+                </footer>
+        </div>
         </div>
         <footer>
             <div>
-               <p id="lyst"> <img src="lyst.jpg" alt="lyst" width="50"
+               <p id="lyst"> <img class="small" src="lyst.jpg" alt="lyst" width="50"
                height="50"><br>
-           <b>Відправити повідомлення.</b></p><br>
+           <b>Відправити повідомлення.</b></p>
             </div>
             <div id="merezhi">
              <a href=https://www.facebook.com/lozynska.anna target="_blank">
-                 <img src="facebook.png" alt="facebook" width="50"
+                 <img class="small" src="facebook.png" alt="facebook" width="50"
                height="50"></a>
              <a href=https://plus.google.com/u/0/114182343111784063745 target="
-             _blank"><img src="gugle+.png" alt="gugle+" width="50"
+             _blank"><img class="small" src="gugle+.png" alt="gugle+" width="50"
                height="50"></a>
              </div>
         </footer>
