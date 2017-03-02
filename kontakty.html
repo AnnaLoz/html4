@@ -1,27 +1,71 @@
 <!doctype html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>Kontakty</title>
-     <link rel="stylesheet" href="css/index.css" >
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body id="fon">
     <header>
         <h1>Контакти</h1>
     </header>
     <nav class="fix">
-      <ul class="navbar2">
-      <li><a href="index.html"> Головна</a></li>
-      <li><a href="galereia.html"> Галерея</a></li>
-      </ul>
-      <p>
-         <b> Телефон:</b> 380673904209
-           </p>
-      <p>
-          <b>E-mail:</b> lozynska.anna@gmail.com
-            </p>
-      <p>
-                  <div> <img id="map" aling="center" src="map.PNG"></div><br>
-         <p > <a id="place" href="https://goo.gl/maps/ETQq9LKhFCx"> Місце знаходження:</a></p>
-             </body>
+        <ul class="navbar1">
+            <li><a href="index.html"> Головна</a></li>
+            <li><a href="galereia.html"> Галерея</a></li>
+        </ul>
+        <p>
+            <b> Телефон:</b> 380673904209
+        </p>
+        <p>
+            <b>E-mail:</b> lozynska.anna@gmail.com
+        </p>
+        <p>
+            <div> <img id="map" aling="center" src="map.PNG"></div><br>
+            <p> <a id="place" href="https://goo.gl/maps/ETQq9LKhFCx" target="_blank"> Місце знаходження:</a></p>
+            <form name="forma1">
+
+                <table border="0" cellspacing="5" cellpadding="5">
+
+                    <caption>
+                        <p class="tab">Відправте повідомлення:</p>
+                    </caption>
+                    <tr>
+                        <td align="left" valign="top">Ім'я</td>
+                        <td><input type="text" name="name" size="25"></td>
+                    </tr>
+
+                    <tr>
+                        <td align="left" valign="top">Е-mail</td>
+                        <td><input type="text" name="e-mail" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top">Номер телефону</td>
+                        <td><input type="text" name="phone" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top">Ваше повідомлення:</td>
+                        <td>
+                            <textarea cols="50" rows="5" wrap="physical">
+     </textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" name="submit" value="Відправити">
+                            <input type="reset" name="reset" value="Очистити">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+
+
+</body>
+
 </html>
