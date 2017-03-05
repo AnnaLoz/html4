@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kontakty</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -13,9 +14,10 @@
     </header>
     <nav class="fix">
         <ul class="navbar1">
-            <li><a href="index.html"> Головна</a></li>
-            <li><a href="galereia.html"> Галерея</a></li>
+            <li class="cent"><a href="index.html"> Головна</a></li>
+            <li class="cent1"><a href="galereia.html"> Галерея</a></li>
         </ul>
+        </nav>
         <p>
             <b> Телефон:</b> 380673904209
         </p>
@@ -23,48 +25,21 @@
             <b>E-mail:</b> lozynska.anna@gmail.com
         </p>
         <p>
-            <div> <img id="map" aling="center" src="map.PNG"></div><br>
+            <div> <img id="map"  src="map.PNG"></div><br>
             <p> <a id="place" href="https://goo.gl/maps/ETQq9LKhFCx" target="_blank"> Місце знаходження:</a></p>
-            <form name="forma1" action="https://formspree.io/lozynska.anna@gmail.com"
-      method="POST">>
+            <div id="form">
+                <form >
+                    <p class="tab">Відправте повідомлення:</p>
+                    <label> Iм'я:  <input type="text" id="client-name" required></label>
 
-                <table border="0" cellspacing="5" cellpadding="5">
-
-                    <caption>
-                        <p class="tab">Відправте повідомлення:</p>
-                    </caption>
-                    <tr>
-                        <td align="left" valign="top">Ім'я</td>
-                        <td><input type="text" name="name" size="25"></td>
-                    </tr>
-
-                    <tr>
-                        <td align="left" valign="top">Е-mail</td>
-                        <td><input type="text" name="e-mail" size="25"></td>
-                    </tr>
-                    <tr>
-                        <td align="left" valign="top">Номер телефону</td>
-                        <td><input type="text" name="phone" size="25"></td>
-                    </tr>
-                    <tr>
-                        <td align="left" valign="top">Ваше повідомлення:</td>
-                        <td>
-                            <textarea cols="50" rows="5" wrap="physical">
-     </textarea>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td align="center" colspan="2">
-                            <input type="submit" name="submit" value="Відправити">
-                            <input type="reset" name="reset" value="Очистити">
-                        </td>
-                    </tr>
-
-                </table>
-
-            </form>
-
+                    <br><label>Email: <input type="email" id="client-email"></label>
+                    <br><label>Номер телефону:<input type="phonenumber" id="client-phonenumber"></label>
+                    <br><label>Ваше повідомлення:<textarea id="comment" cols="50" rows="5"
+                            wrap="physical"></textarea></label>
+                    <br><input type="submit"id="btn-submit" name="submit" value="Відправити">
+                    <input type="reset" name="reset" value="Очистити">
+                </form>
+            </div>
 
 
 </body>

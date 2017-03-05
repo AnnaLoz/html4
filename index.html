@@ -3,6 +3,7 @@
 
 <head>
  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>Site</title>
  <link rel="stylesheet" href="css/index.css">
  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
  <header>
   <div class="emblema">
-   <img src="emblema.jpg" alt="emblema">
+   <img class="emblema" src="emblema.jpg" alt="emblema">
   </div>
   <div class="var">
    <h1 id="abs"><b>Моя географія.</b></h1>
@@ -20,13 +21,13 @@
  </header>
  <nav class="fix">
   <ul class="navbar1">
-   <li onclick="javascript: Menu('1')">Галерея</a>
+   <li id="menu1"><a href="#">Галерея</a>
    </li>
    <ul id="menu_1">
-    <li class="menu"> <a href="galereia.html">Відвідані місця</a></li>
+    <li class="menu"> <a href="galereia.html">Відвідані місця</a></li><br>
     <li class="menu"> <a href="galereia1.html">Хочу відвідати</a></li>
    </ul>
-   <li><a href="kontakty.html">Контакти</a></li>
+   <li class="cent1"><a href="kontakty.html">Контакти</a></li>
   </ul>
  </nav>
  <div id="box">
@@ -48,7 +49,7 @@
      </p>
    </article>
    <div class="flexi2">
-    <img class="imag" src="odessa.jpg" alt="odesa" hspace="20" vspace="20">
+    <img class="imag" src="odessa.jpg" alt="odesa" >
    </div>
    </div>
    <div class="flexi">
@@ -69,7 +70,7 @@
       </p>
     </article>
     <div class="flexi1">
-     <img class="imag" src="park.jpg" alt="kolomyia" hspace="0" vspace="20">
+     <img class="imag" src="park.jpg" alt="kolomyia">
     </div>
     </div>
     <div class="flexi">
@@ -90,7 +91,7 @@
        </p>
      </article>
      <div class="flexi1">
-      <img class="imag" src="lviv.jpg" alt="lviv" hspace="20" vspace="20">
+      <img class="imag" src="lviv.jpg" alt="lviv" >
      </div>
      </div>
     </div>
@@ -107,6 +108,9 @@
              _blank"><img class="small" src="gugle+.png" alt="gugle+" width="50" height="50"></a>
      </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 
