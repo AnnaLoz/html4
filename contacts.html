@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Kontakty</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body id="fon">
+    <header>
+        <h1>Контакти</h1>
+    </header>
+    <nav class="fix">
+        <ul class="navbar1">
+            <li class="menu"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Головна</a></li>
+            <li class="menu"> <a href="galereia.html">Відвідані місця</a></li>
+            <li class="menu"> <a href="galereia1.html">Хочу відвідати</a></li>
+        </ul>
+    </nav>
+    <p>
+        <b> Телефон:</b> 380673904209
+    </p>
+    <p>
+        <b>E-mail:</b> lozynska.anna@gmail.com
+    </p>
+    <p>
+        <div> <img id="map" src="images/map.PNG"></div><br>
+        <p> <a id="place" href="https://goo.gl/maps/ETQq9LKhFCx" target="_blank"> Місце знаходження:</a></p>
+        <div id="form">
+            <form>
+                <p class="tab">Відправте повідомлення:</p>
+                <br><label> Iм'я: <br><input type="text" id="client-name" placeholder="Anna" required></label>
+
+                <br><label>Email: <br><input type="email" id="client-email" placeholder="fg@fjh.com"></label>
+                <br><label>Номер телефону: <br><input type="phonenumber" id="client-phonenumber" placeholder="(067) 000 00 00"></label>
+                <br><label>Ваше повідомлення:<textarea id="comment" cols="50" rows="5"
+                            wrap="physical" placeholder="Введіть Ваше повідомлення"></textarea></label>
+                <br><input type="submit" id="btn-submit" name="submit" value="Відправити">
+                <input type="reset" name="reset" value="Очистити">
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

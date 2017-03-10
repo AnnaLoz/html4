@@ -6,27 +6,35 @@ body {
     margin: auto;
     max-width: 1100px;
     background-color: #CFCFCF;
+    overflow-x: hidden;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 45px;
     color: #1C1C1C;
     text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
 #abs {
     font-family: 'Lobster', cursive;
+    vertical-align: middle;
 }
 
 h2 {
     font-size: 30px;
-    color: #4F4F4F;
+    color: #363636;
     text-align: center;
+}
+
+#style {
+    font-family: 'Lobster', cursive;
 }
 
 h3 {
     font-size: 20px;
-    color: #8B636C;
+    color: #363636;
+    font-family: 'Lobster', cursive;
     text-align: center;
 }
 
@@ -38,6 +46,7 @@ h3 {
 
 #merezhi {
     text-align: right;
+    background-image: url(/images/fon5.jpg);
 }
 
 #box {
@@ -66,8 +75,8 @@ h3 {
 }
 
 .imag {
-     height: 130px;
-    border: 2px solid #828282;
+    border: 2px solid #363636;
+    border-radius: 8px;
 }
 
 .art {
@@ -81,69 +90,55 @@ h3 {
     margin: 0;
     padding: 0;
     width: 1100px;
-    height: 45px;
     list-style-type: none;
-    border: 1px solid #696969;
-    background-color: #9C9C9C;
 }
 
 .navbar1 a {
     display: inline-block;
     text-decoration: none;
-    color: #363636;
+    font-family: 'Lobster', Verdana, sans-serif;
+    color: #E8E8E8;
 }
 
 .navbar1 li {
     float: left;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    padding-top: 5px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    color: #363636;
+    font-family: 'Lobster', Verdana, sans-serif;
+    width: 33%;
+    text-align: center;
+    font-size: 22px;
 }
 
-.cent1 {
-    text-align: left;
-    width: 50%;
+.navbar2 {
+    margin: 0;
+    padding: 0;
+    width: 1100px;
+    list-style-type: none;
 }
-#menu1 {
-    text-align: right;
+
+.navbar2 a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lobster', Verdana, sans-serif;
+    color: #E8E8E8;
+}
+
+.navbar2 li {
+    float: left;
+    font-family: 'Lobster', Verdana, sans-serif;
     width: 50%;
-    position: relative;
-    }
-.cent {
-    text-align: right;
-    width: 50%;
-    position: relative;
-    }
+    text-align: center;
+    font-size: 22px;
+}
 
 .fix {
     text-align: center;
-}
-
-#menu_1 {
-    display: none;
-    list-style-type: none;
-    font-size: 15px;
-    position: absolute;
-    top: 40%;
-    left: 38%;
-}
-
-.menu {
-    font-size: 15px !important;
-    border: 1px solid #696969;
-    background-color: #9C9C9C;
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 40px;
 }
 
 .vert {
     display: block;
-}
-
-.rel {
-    position: relative;
 }
 
 .small {
@@ -161,12 +156,107 @@ h3 {
 }
 
 .emblema {
+    display: block;
+    width: 2000px;
+}
+
+.foto {
+    padding: 30px;
+    float: left;
+    text-align: left;
     display: inline-block;
 }
 
-.var {
+.discr {
     display: inline-block;
-    margin-left: 100px;
+}
+
+.foto1 {
+    display: inline-block;
+    padding: 30px;
+    margin: auto;
+    text-align: right;
+}
+
+.foto2 {
+    float: left;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.foto4 {
+    float: left;
+    border: 2px solid #363636;
+    border-radius: 8px;
+    width: 318px;
+    height: 159px;
+    margin-right: 20px;
+}
+
+.fotos {
+    border: 2px solid #363636;
+    border-radius: 8px;
+}
+
+.abzac {
+    text-align: justify;
+}
+
+.tab {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#povidoml {
+    text-decoration: none;
+    color: #363636;
+}
+
+.cent {
+    text-align: center;
+}
+
+a:hover {
+    color: #EE7600;
+}
+
+.flexi:hover {
+    color: #00688B;
+}
+
+#povidoml:hover {
+    color: #EE7600;
+}
+
+.imag:hover {
+    border: 2px solid #EE7600;
+}
+
+.fotos:hover {
+    border: 2px solid #EE7600;
+}
+
+.foto4:hover {
+    border: 2px solid #EE7600;
+}
+
+#form {
+    width: 40%;
+    font-size: 18px;
+}
+
+#client-name {
+    margin-left: 10px;
+}
+
+#client-email {
+    margin-left: 10px;
+}
+
+#client-phonenumber {
+    margin-left: 10px;
 }
 
 @media screen and (max-width:599px) {
@@ -177,8 +267,11 @@ h3 {
         width: 100vw;
         text-align: center;
     }
-    .imag {
+    #emb {
         width: 100vw;
+    }
+    .imag {
+        width: 98vw;
     }
     .flexi {
         width: 100vw;
@@ -197,12 +290,18 @@ h3 {
     h1 {
         font-size: 35px;
     }
+    h2 {
+        text-align: center;
+    }
     .var {
         margin-left: 20px;
     }
     .navbar1 {
         width: 100vw;
-            }
+    }
+    .navbar2 {
+        width: 100vw;
+    }
     #gal {
         display: block;
         margin: auto;
@@ -213,80 +312,31 @@ h3 {
         display: block;
         width: 100vw;
         border: none;
-        padding-left: 0px;
-                         }
+    }
     .foto1 {
         display: block;
         width: 100vw;
         border: none;
-            }
+    }
     .fotos {
-        width: 100vw;
+        width: 100%;
         float: none;
         display: block;
     }
     .foto4 {
-      width: 100vw;
-        float: none;
-            }
-}
-
-.foto {
-    padding: 30px;
-    margin: auto;
-    float: left;
-    text-align: left;
-}
-
-.discr {
-    display: inline-block;
-}
-
-.foto1 {
-     display: inline-block;
-    padding: 30px;
-    margin: auto;
-    text-align: right;
-}
-.foto2 {
-    float: left;
-    padding: 30px;
-    margin: auto;
-    text-align: center;
-  }
-.foto4 {
-    float: left;
-     margin-right:  20px;
-}
-
-.abzac {
-    text-align: justify;
-   }
-
-.tab {
-    font-size: 20px;
-    text-align: left;
-    text-decoration: underline;
-}
-
-#povidoml {
-    text-decoration: none;
-    color: #363636;
-}
-
-#form {
-    width: 40%;
-    font-size: 18px;
-}
-
-#client-name {
-    margin-left: 26%;
-}
-
-#client-email {
-    margin-left: 23%;
-}
-
-#client-phonenumber {
-    margin-left: 5%;
+        width: 100vw;
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .foto2 {
+        width: 100vw;
+    }
+    .fix {
+        width: 100vw;
+        height: 70px;
+    }
+    .ab {
+        text-align: center;
+    }
 }
